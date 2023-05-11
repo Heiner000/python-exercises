@@ -1,7 +1,3 @@
-# Write a function called `print_contacts` that takes a
-# dictionary of key-value pairs for names and phone numbers,
-# then outputs the `name` with the contact info.
-#
 # Try iterating over a dictionary with a for loop and printing
 # out what values come back.
 #
@@ -20,3 +16,12 @@ contacts = {
   'Lenny': '444-444-4444',
   'Daniel': '777-777-7777'
 }
+# Write a function called `print_contacts` that takes a
+# dictionary of key-value pairs for names and phone numbers,
+# then outputs the `name` with the contact info.
+
+def print_contacts(tacos):
+    for name, phone_number in tacos.items():
+        print(f'{name} has a phone number of {phone_number}')
+
+print_contacts(contacts)
