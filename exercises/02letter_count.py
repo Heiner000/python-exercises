@@ -1,4 +1,3 @@
-
 # You can iterate over a string one letter at a time using
 # a for loop.
 #

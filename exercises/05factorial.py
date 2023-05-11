@@ -11,9 +11,9 @@
 # whole numbers from 1 to n.
 
 def factorial(num):
-    result = 1
+    product = 1
     for i in range(1, num + 1):
-        result *= i
-    return result
+        product *= i
+    return product
 
 print(factorial(5))

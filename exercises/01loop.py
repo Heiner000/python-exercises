@@ -15,7 +15,7 @@
 # > Hello there
 
 def p_times(statement, num):
-    for i in range(num):
+    for _ in range(num):
         print(statement)
-        
+
 p_times("hello there", 3)
